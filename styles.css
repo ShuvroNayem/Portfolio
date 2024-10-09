@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color:#1c2833;    ;
+    color: #c30b15;
+    padding: 20px 0;
+}
+header span {
+    color: #e5e8e8 ;
+}
+.profile-photo {
+    width: 170px;
+    height: 160px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #4444;
+    overflow: hidden;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #58d68d;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #d7dbdd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(26, 20, 20, 0.65);
+}
+.section h2 {
+    text-align:left; /* Center the section titles */
+    margin-bottom: 15px;
+    color: #E50914;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #ecf0f1 ;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color:darkcyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:cyan;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+}
